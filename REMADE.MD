@@ -13,32 +13,24 @@ your_project_folder/
 ├── stock_output.py # 예시 또는 추가 기능 코드
 └── README.md # 프로젝트 설명 파일
 
-yaml
-복사
-편집
-
 ---
 
 ## ⚙️ 사용 방법
 
-1. `.env` 파일 생성 후 다음과 같이 API 키를 입력하세요:
+1. **`.env` 파일 생성 후 다음과 같이 API 키를 입력하세요:**
 
 ```env
 NAVER_CLIENT_ID=your_client_id
 NAVER_CLIENT_SECRET=your_client_secret
-라이브러리 설치:
 
-bash
-복사
-편집
+2. **라이브러리 설치**:
+
 pip install -r requirements.txt
-실행:
 
-bash
-복사
-편집
+3.**실행**:
 python Search.py
-실행 후 키워드와 카테고리(blog, news, book, image, webkr)를 입력하면 해당 데이터를 가져옵니다.
+
+4. **실행 후 키워드와 카테고리(blog, news, book, image, webkr)를 입력하면 해당 데이터를 가져옵니다.**
 
 ✅ 기능 설명
 블로그/뉴스/웹문서/책/이미지 검색 가능
@@ -50,13 +42,13 @@ BeautifulSoup을 이용해 HTML 태그 제거
 최대 1100개까지 데이터 크롤링 지원
 
 💡 예시
-makefile
-복사
-편집
+
 검색: 인공지능
 카테고리를 설정해주세요: blog
 가져올 데이터 갯수를 정해주세요: 50
+
 📚 기술 스택
+
 Python
 
 requests
@@ -75,6 +67,4 @@ Naver API는 하루 호출 제한이 있습니다.
 👨‍💻 개발자
 현태 안 – GitHub
 
-yaml
-복사
-편집
+
